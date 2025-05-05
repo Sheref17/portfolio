@@ -28,6 +28,10 @@ body{
     background-color: var(--primary-bg);
     color: var(--text-color);
 
+        overflow-x: hidden;
+ 
+      
+
 }
 a{
     text-decoration: none;
