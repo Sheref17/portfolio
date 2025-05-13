@@ -27,6 +27,12 @@
 body{
     background-color: var(--primary-bg);
     color: var(--text-color);
+    width: 100%;
+   overflow-x: hidden;
+
+ 
+ 
+      
 
 }
 a{
@@ -163,7 +169,7 @@ background-color: var(--secondary-bg);
 }
 .about-img{
     padding-block: 20%;
-
+    width: 100%;
 
     max-width: 630px;
     height: auto;
@@ -210,6 +216,7 @@ background-color: var(--secondary-bg);
 }
 .container{
     padding: 90px;
+    padding: 5vw;
 }
 .services-list{
     display: grid;
@@ -269,10 +276,11 @@ background-color: var(--secondary-bg);
 }
 
 .container1{
-    width: 600px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: 500px;
     padding: 75px 90px;
-    margin-left: 120px;
 }
 .heading1{
     text-align: center;
@@ -456,7 +464,7 @@ transform-origin: left;
     width: 90%;
     padding: 18px;
     background-color: var(--input-bg);
-    color: #000;
+     color: #fff;
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
@@ -499,8 +507,10 @@ transform-origin: left;
 }
 .top {
     position: fixed;
-    bottom: 2.1rem;
-    right: 2.1rem;
+ 
+    bottom: 2%;
+
+    right: 10%;
 }
 .top i {
     color: #000;
@@ -626,8 +636,8 @@ transform-origin: left;
   @media (max-width: 768px) {
     .About,
     .contact {
-      grid-template-columns: 1fr;
-      padding: 0 20px;
+    display: block;
+      padding: 0 10px;
     }
     .home-content h1 {
       font-size: 36px;
@@ -708,10 +718,7 @@ transform-origin: left;
       font-size: 14px;
       padding: 10px 20px;
     }
-    .top {
-      bottom: 1rem;
-      right: 1rem;
-    }
+ 
     .top i {
       font-size: 18px;
     }
